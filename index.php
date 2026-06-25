@@ -16,7 +16,7 @@ $stats = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $company_name; ?> | Official Corporate Website</title>
+    <title><?php echo $company_name; ?> | Corporate Website</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -37,6 +37,11 @@ $stats = [
             background-color: #ffffff;
             overflow-x: hidden;
             perspective: 1000px;
+        }
+
+        /* Justify Text Utility for Corporate Profile */
+        .text-justify {
+            text-align: justify;
         }
 
         /* Override Bootstrap Primary Color to Match Corporate Form Background */
@@ -427,27 +432,27 @@ $stats = [
                 <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-quad">
                     <h2 class="section-title">Corporate Profile</h2>
                     
-                    <p class="lead text-muted">
+                    <p class="lead text-muted text-justify">
                         Incorporate in March 2025, Ezyfusion Group Sdn. Bhd. is a growing company that operates through a few connected business areas, focusing on practical and sustainable solutions.
                     </p>
 
-                    <p>
+                    <p class="text-justify">
                         We are involved in property management, manufacturing, and technology solutions. Each of these areas is designed to support and improve our overall operations as a group.
                     </p>
 
-                    <p>
+                    <p class="text-justify">
                         In property management, we manage rental rooms, houses, and homestay units, with a focus on providing well-maintained and comfortable living spaces.
                     </p>
 
-                    <p>
+                    <p class="text-justify">
                         In manufacturing, we produce custom-made items such as laser-cut and engraved products for both personal and business use.
                     </p>
 
-                    <p>
+                    <p class="text-justify">
                         We also build internal systems to help improve our daily operations and efficiency, with plans to gradually move towards SaaS-based solutions and digital growth in the future.
                     </p>
 
-                    <p>
+                    <p class="text-justify">
                         Overall, Ezyfusion Group aims to build a reliable and well-connected business ecosystem that focuses on real, practical solutions.
                     </p>
 
@@ -663,6 +668,7 @@ $stats = [
                                     <option value="Creative Manufacturing">Creative Manufacturing</option>
                                     <option value="Systems & Innovation">Systems &amp; Innovation</option>
                                     <option value="Supply Chain & Ventures">Supply Chain &amp; Ventures</option>
+                                    <option value="Jobs & Internship">Jobs &amp; Internship</option>
                                 </select>
                             </div>
                             <div class="mb-3">
